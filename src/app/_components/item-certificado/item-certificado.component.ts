@@ -14,6 +14,6 @@ export class ItemCertificadoComponent {
   constructor(private router: Router) {}
 
   redirecionaCertificado() {
-    this.router.navigate(['/certificado', 5]);
+    this.router.navigate(['/certificados', 5]);
   }
 }
